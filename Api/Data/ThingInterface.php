@@ -9,6 +9,7 @@ interface ThingInterface
      function getId();
      
     /**
+     * @param int $id   
      * @return $this     
      */   
      public function setId($id);
